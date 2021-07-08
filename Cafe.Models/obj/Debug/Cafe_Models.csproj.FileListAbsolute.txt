@@ -1,0 +1,5 @@
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Cafe.Models\bin\Debug\Cafe.Models.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Cafe.Models\bin\Debug\Cafe.Models.pdb
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Cafe.Models\obj\Debug\Cafe_Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Cafe.Models\obj\Debug\Cafe.Models.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Cafe.Models\obj\Debug\Cafe.Models.pdb

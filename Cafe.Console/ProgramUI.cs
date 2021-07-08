@@ -14,18 +14,26 @@ namespace Cafe_Console
         int mealNumber = default;
         public void Run()
         {
-            Console.WriteLine("Welcome to Komodo Cafe's menu manager!");
+            Console.WriteLine("Welcome to Komodo Cafe's menu manager!\n");
 
             Console.WriteLine("What would you like to do?\n" +
                 "1. Add a new meal to the menu.\n" +
-                "2. Delete a meal from the menu.");
+                "2. Delete a meal from the menu.\n" +
+                "3. Display Current Menu.");
 
             string input = Console.ReadLine();
             switch (input)
             {
                 case "1":
+                    CreateMeal();
                     break;
                 case "2":
+                    break;
+                case "3":
+                    break;
+                default:
+                    Console.WriteLine("That's not one of the two options.");
+                    Run();
                     break;
             }
 
@@ -66,8 +74,10 @@ namespace Cafe_Console
                     {
                         keepAsking = false;
                     }
-
-                    Console.WriteLine("Please answer either y or n.");
+                    else 
+                    {
+                        Console.WriteLine("Please answer either y or n.");
+                    }
                 }
             }
 
@@ -76,7 +86,10 @@ namespace Cafe_Console
             double price = double.Parse(getPrice);
 
             MenuItem newItem = new MenuItem( mealNumber++, name, description, ingredientsList, price );
+        }
 
+        public void DeleteMeal()
+        {
 
         }
     }

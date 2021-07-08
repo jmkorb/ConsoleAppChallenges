@@ -13,7 +13,6 @@ namespace Cafe_Repository
         // Create
         public bool CreateItem(MenuItem item)
         {
-            int mealNumber = GenerateMealNumber();
             if (item == default)
             {
                 return false;

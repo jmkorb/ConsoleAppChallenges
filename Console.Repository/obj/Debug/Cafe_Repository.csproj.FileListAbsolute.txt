@@ -1,0 +1,9 @@
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Console.Repository\obj\Debug\Cafe_Repository.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Console.Repository\obj\Debug\Cafe_Repository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Console.Repository\bin\Debug\Console.Repository.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Console.Repository\bin\Debug\Console.Repository.pdb
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Console.Repository\bin\Debug\Cafe.Models.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Console.Repository\bin\Debug\Cafe.Models.pdb
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Console.Repository\obj\Debug\Cafe_Repository.csproj.CopyComplete
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Console.Repository\obj\Debug\Console.Repository.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Console.Repository\obj\Debug\Console.Repository.pdb
