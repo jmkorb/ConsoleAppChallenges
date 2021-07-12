@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Models\bin\Debug\Claims.Models.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Models\bin\Debug\Claims.Models.pdb
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Models\obj\Debug\Claims_Models.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Models\obj\Debug\Claims_Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Models\obj\Debug\Claims.Models.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Models\obj\Debug\Claims.Models.pdb

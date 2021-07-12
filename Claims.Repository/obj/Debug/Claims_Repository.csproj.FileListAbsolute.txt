@@ -1,0 +1,9 @@
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Repository\bin\Debug\Claims.Repository.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Repository\bin\Debug\Claims.Repository.pdb
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Repository\bin\Debug\Claims.Models.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Repository\bin\Debug\Claims.Models.pdb
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Repository\obj\Debug\Claims_Repository.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Repository\obj\Debug\Claims_Repository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Repository\obj\Debug\Claims_Repository.csproj.CopyComplete
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Repository\obj\Debug\Claims.Repository.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Claims.Repository\obj\Debug\Claims.Repository.pdb

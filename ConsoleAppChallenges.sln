@@ -15,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Claims", "2. Claims", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Badges", "3. Badges", "{26C65442-99D1-4DFD-BFE8-92138B30E3F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.Console", "Claims.Console\Claims.Console.csproj", "{9FD5D779-287F-49DD-AB71-A46E13DAA276}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims_Console", "Claims.Console\Claims_Console.csproj", "{9FD5D779-287F-49DD-AB71-A46E13DAA276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.Models", "Claims.Models\Claims.Models.csproj", "{A355FBA2-94A2-4C5F-84B0-82DCEC3DF8DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims_Models", "Claims.Models\Claims_Models.csproj", "{A355FBA2-94A2-4C5F-84B0-82DCEC3DF8DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.Repository", "Claims.Repository\Claims.Repository.csproj", "{17DF57EA-FC48-4C31-8926-B0D11D2AB9B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims_Repository", "Claims.Repository\Claims_Repository.csproj", "{17DF57EA-FC48-4C31-8926-B0D11D2AB9B5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Badges.Console", "Badges.Console\Badges.Console.csproj", "{1710B182-5178-4996-B8EF-2D5217CC1C3C}"
 EndProject
