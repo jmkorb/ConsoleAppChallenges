@@ -28,11 +28,23 @@ namespace Cafe_Repository
             return _menuItems;
         }
 
+        public MenuItem GetMealByID(int id)
+        {
+            foreach (MenuItem meal in _menuItems)
+            {
+                if (meal.MealNumber == id)
+                {
+                    return meal;
+                }
+                
+            }
+            return null;
+        }
+
 
         // Delete
         public bool DeleteItem(MenuItem item)
         {
-
             if (item == default)
             {
                 return false;
