@@ -13,7 +13,7 @@ namespace Cafe_Repository
         // Create
         public bool CreateItem(MenuItem item)
         {
-            if (item == default)
+            if (item == null)
             {
                 return false;
             }
@@ -36,7 +36,6 @@ namespace Cafe_Repository
                 {
                     return meal;
                 }
-                
             }
             return null;
         }
