@@ -9,6 +9,17 @@ namespace Cafe_Test
     [TestClass]
     public class MenuItemRepoTest
     {
+        private readonly MenuItemRepo _repo = new MenuItemRepo();
+
+        [TestInitialize]
+        public void Arrange()
+        {
+            List<string> ingredientsList = new List<string>() { "buns", "beef patty", "lettuce", "thousand island" };
+            MenuItem menuItem = new MenuItem(123, "Big Mac", "The original king", ingredientsList, 3.00);
+            _repo.CreateItem(menuItem);
+        }
+
+
         [TestMethod]
         public void CreateItem_MenuIsNull_ReturnFalse()
         {
@@ -29,10 +40,8 @@ namespace Cafe_Test
             // Arrange - create any variables we need to test this method
             List<string> ingredientsList = new List<string>() { "buns", "beef patty", "lettuce", "thousand island" };
             MenuItem menuItem = new MenuItem(123, "Big Mac", "The original king", ingredientsList, 3.00);
-            MenuItemRepo repo = new MenuItemRepo();
-
             // Act - actually calling the method
-            bool result = repo.CreateItem(menuItem);
+            bool result = _repo.CreateItem(menuItem);
 
             // Assert - making sure the method did what it was supposed
             Assert.IsTrue(result);
@@ -41,13 +50,9 @@ namespace Cafe_Test
         [TestMethod]
         public void GetMealByID_MealExists_ReturnMeal()
         {
-            List<string> ingredientsList = new List<string>() { "buns", "beef patty", "lettuce", "thousand island" };
-            MenuItem menuItem = new MenuItem(123, "Big Mac", "The original king", ingredientsList, 3.00);
-            MenuItemRepo repo = new MenuItemRepo();
-            repo.CreateItem(menuItem);
             int id = 123;
 
-            MenuItem result = repo.GetMealByID(id);
+            MenuItem result = _repo.GetMealByID(id);
 
             Assert.IsNotNull(result);
             Assert.AreEqual(result.MealNumber, id);
@@ -56,13 +61,9 @@ namespace Cafe_Test
         [TestMethod]
         public void GetMealByID_MealDoesNotExist_ReturnNull()
         {
-            List<string> ingredientsList = new List<string>() { "buns", "beef patty", "lettuce", "thousand island" };
-            MenuItem menuItem = new MenuItem(123, "Big Mac", "The original king", ingredientsList, 3.00);
-            MenuItemRepo repo = new MenuItemRepo();
-            repo.CreateItem(menuItem);
             int id = 5;
 
-            MenuItem result = repo.GetMealByID(id);
+            MenuItem result = _repo.GetMealByID(id);
 
             Assert.IsNull(result);
         }
@@ -83,10 +84,7 @@ namespace Cafe_Test
         {
             List<string> ingredientsList = new List<string>() { "buns", "beef patty", "lettuce", "thousand island" };
             MenuItem menuItem = new MenuItem(123, "Big Mac", "The original king", ingredientsList, 3.00);
-            MenuItemRepo repo = new MenuItemRepo();
-            repo.CreateItem(menuItem);
-
-            bool result = repo.DeleteItem(menuItem);
+            bool result = _repo.DeleteItem(menuItem);
 
             Assert.IsTrue(result);
         }

@@ -29,7 +29,7 @@ namespace Claims_Repository
         //Update and Delete are the same. Handling a claim
         public bool Delete()
         {
-            if(_claims.Peek() == null)
+            if(_claims.Count == 0)
             {
                 return false;
             }
