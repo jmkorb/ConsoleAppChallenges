@@ -13,7 +13,7 @@ namespace Badges_Repository
         Dictionary<int, List<string>> _badgeDictionary = new Dictionary<int, List<string>>();
         public bool Create(Badge badge)
         {
-            if (badge == default)
+            if (badge.BadgeID == default || badge.DoorNames == default)
             {
                 return false;
             }

@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe_Test", "Cafe.Test\Cafe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims_Test", "Claims_Test\Claims_Test.csproj", "{2E055FC8-5C1D-4F42-B05F-156F8F6B6507}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Badge_Test", "BadgeRepoTest\Badge_Test.csproj", "{B9D15337-645A-45A6-B2FD-A91D69792E5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{2E055FC8-5C1D-4F42-B05F-156F8F6B6507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E055FC8-5C1D-4F42-B05F-156F8F6B6507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E055FC8-5C1D-4F42-B05F-156F8F6B6507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D15337-645A-45A6-B2FD-A91D69792E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D15337-645A-45A6-B2FD-A91D69792E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D15337-645A-45A6-B2FD-A91D69792E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D15337-645A-45A6-B2FD-A91D69792E5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +103,7 @@ Global
 		{C93D0777-B37A-4C0A-8CD3-3003F2476745} = {26C65442-99D1-4DFD-BFE8-92138B30E3F0}
 		{D746705B-72AB-4682-90FC-3ECC5A3F4768} = {14C55D68-922A-431E-ACF5-A0CA41CA1E36}
 		{2E055FC8-5C1D-4F42-B05F-156F8F6B6507} = {DB808D26-4213-4EE4-8EE7-C76FA3C87AD6}
+		{B9D15337-645A-45A6-B2FD-A91D69792E5B} = {26C65442-99D1-4DFD-BFE8-92138B30E3F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4517BCB6-16B0-4AD0-959E-1BE66121F6ED}
