@@ -32,7 +32,7 @@ Jacob Korb, jacob.korb@gmail.com
 
 
 
-# Challenege 2: Claims
+# Challenge 2: Claims
 
 This program for Komodo Insurance. It deals with claims objects that are a part of an overall queue for their agents to handle. You're able to view all claims, handle the next claim in the queue, and enter new claims. Each claim has an ID, description, amount, date of the incident, date of claim, and whether it is valid or not based on the date of the incident and date of claim. All claims are under three types: Car, Auto, or Theft. The is a console application.
 
