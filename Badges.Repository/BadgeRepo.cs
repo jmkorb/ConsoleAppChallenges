@@ -17,7 +17,7 @@ namespace Badges_Repository
             {
                 return false;
             }
-            if (_badgeDictionary.ContainsKey(badge.BadgeID))
+            else if(CheckIfBadgeExists(badge.BadgeID))
             {
                 return false;
             }
@@ -29,7 +29,8 @@ namespace Badges_Repository
         {
             return _badgeDictionary;
         }
-        public bool AddRoom(int badgeNumber, string roomNumber)
+
+        public bool AddDoor(int badgeNumber, string doorNumber)
         {
             if (!_badgeDictionary.ContainsKey(badgeNumber))
             {
@@ -37,10 +38,11 @@ namespace Badges_Repository
             }
 
             List<string> doorList = _badgeDictionary[badgeNumber];
-            doorList.Add(roomNumber);
+            doorList.Add(doorNumber);
             return true;
         }
-        public bool DeleteRoom(int badgeNumber, string roomNumber)
+
+        public bool DeleteDoor(int badgeNumber, string doorNumber)
         {
             if (!_badgeDictionary.ContainsKey(badgeNumber))
             {
@@ -48,8 +50,17 @@ namespace Badges_Repository
             }
 
             List<string> doorList = _badgeDictionary[badgeNumber];
-            doorList.Remove(roomNumber);
+            doorList.Remove(doorNumber);
             return true;
+        }
+
+        public bool CheckIfBadgeExists(int badgeNumber)
+        {
+            if (_badgeDictionary.ContainsKey(badgeNumber))
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

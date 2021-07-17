@@ -1,0 +1,9 @@
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Badges.Repository\bin\Debug\Badges.Repository.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Badges.Repository\bin\Debug\Badges.Repository.pdb
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Badges.Repository\bin\Debug\Badges.Models.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Badges.Repository\bin\Debug\Badges.Models.pdb
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Badges.Repository\obj\Debug\Badges_Repository.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Badges.Repository\obj\Debug\Badges_Repository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Badges.Repository\obj\Debug\Badges_Repository.csproj.CopyComplete
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Badges.Repository\obj\Debug\Badges.Repository.dll
+C:\ElevenFiftyProjects\ConsoleAppChallenges\Badges.Repository\obj\Debug\Badges.Repository.pdb
